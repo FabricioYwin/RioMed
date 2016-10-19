@@ -1,4 +1,6 @@
 <?php
+
+
     function buscaUsuario($conn, $login, $senha){
         $query = "select * from usuario where login = '{$login}' and senha = '{$senha}'";
         
